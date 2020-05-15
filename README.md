@@ -9,6 +9,6 @@
 ウェブページのレイアウトに広く使われている、CSSのフレックスボックスについて見ていきます。
 
 ### URL
-https://github.com/NanaTerada/lesson_-responsive_css.git
+https://github.com/NanaTerada/lesson_flex-box_css.git
 
 ### メモ
