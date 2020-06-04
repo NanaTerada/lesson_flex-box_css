@@ -6,13 +6,21 @@ body {
 section {
     display: flex;
     margin-bottom: 60px;
+    justify-content: space-between;
+    /* 画像をテキストの間にいい感じの余白を作るため */
+}
+
+section:nth-child(even) {
+    flex-direction: row-reverse;
 }
 
 .pic {
     width: 180px;
-    margin-right: 32px;
+    //margin-right: 32px;
 }
 
 .desc {
-    flex: 1;
+    //flex: 1;
+    width:calc(100% - 180px - 32px);
+    /* 画像をテキストの間にいい感じの余白を作るため */
 }
