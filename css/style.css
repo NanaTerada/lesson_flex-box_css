@@ -1,45 +1,18 @@
-html {
-    height: 100%;
-}
 
 body {
     margin: 0;
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-
 }
-
-.container {
-    margin-top: 50px; 
-    /* ※marginの相殺が起きない点に注意 */
-    display: flex;
-    flex: 1;
-  }
-  
 
 header {
-    background:#fd5;
-    margin-bottom: 100px;
-    margin-bottom: 100px;
+    height: 200px;
+    background: silver;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-main {
-    background:#aed;
-    flex: 1;
-}
-
-nav {
-    background: tomato;
+div {
     width: 100px;
-    order: -1;
-}
-
-aside {
-    background:#ddd;
-    width: 100px;
-}
-
-footer {
-    background:#222;
+    height: 40px;
+    background:skyblue ;
 }
