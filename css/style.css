@@ -12,6 +12,12 @@ main {
     flex: 1;
 }
 
+nav {
+    background: tomato;
+    width: 100px;
+    order: -1;
+}
+
 aside {
     background:#ddd;
     width: 100px;
